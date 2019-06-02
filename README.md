@@ -8,7 +8,7 @@ A startup called Sparkify wanted to analyze the data they've been collecting on 
 
 ## Objective
 
-As a data engineer, my role is to create a Postgres database with tables designed to optimize queries on song play analysis. My tasks included creating a database schema and ETL pipeline for this analysis as well as testing the database and ETL pipeline by running queries given to me by the analytics team from Sparkify and comparing the results with their expected results.
+As a data engineer, my role is to create a Postgres database with tables designed to optimize queries on song play analysis. My tasks included creating a database schema and building ETL pipeline for this analysis as well as testing the database and ETL pipeline by running queries given to me by the analytics team from Sparkify and comparing the results with their expected results.
 
 ## Dependencies
 
