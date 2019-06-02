@@ -1,4 +1,4 @@
-# Sparkify
+# Data Modeling with PostgresSQL for Music app
 
 ## Backgroud
 
