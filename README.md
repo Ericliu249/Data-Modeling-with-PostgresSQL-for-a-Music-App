@@ -1,4 +1,6 @@
 # Data Modeling with PostgresSQL for a Music App
+- Author: Yang Liu
+- Contact: eric.liu.249@gmail.com
 
 ## Backgroud
 
