@@ -40,3 +40,10 @@ The log files in the dataset you'll be working with are partitioned by year and 
 And below is an example of what the data in a log file, 2018-11-12-events.json, looks like.
 
 ![example4](https://github.com/Ericliu249/Sparkify/blob/master/pic/example4.png)
+
+## Schema for Song Play Analysis
+Using the song and log datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
+
+### Fact Table
+1. **songplays** - records in log data associated with song plays i.e. records with page NextSong
+- songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
