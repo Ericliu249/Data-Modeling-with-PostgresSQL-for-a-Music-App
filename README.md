@@ -67,3 +67,13 @@ Using the song and log datasets, you'll need to create a star schema optimized f
 3. **etl.ipynb** : reads and processes a single file from song_data and log_data and loads the data into the tables. This notebook contains detailed instructions on the ETL process for each of the tables.
 4. **etl.py** : reads and processes files from song_data and log_data and loads them into the tables.  This script was created based on the work in the ETL notebook.
 5. **sql_queries.py** : contains all sql queries, and is imported into the last three files above.
+
+## Project Steps
+
+### Create Tables
+1. Write **CREATE** statements in **sql_queries.py** to create each table.
+2. Write **DROP** statements in **sql_queries.py** to drop each table if it exists.
+3. Run **create_tables.py** to create the database and tables.
+4. Run **test.ipynb** to confirm the creation of the tables with the correct columns. Make sure to click "Kernel-Restart/Shutdown" to close the connection to the database after running this notebook.
+
+### Build ETL Processes
