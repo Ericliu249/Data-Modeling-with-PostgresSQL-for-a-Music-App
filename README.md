@@ -26,3 +26,5 @@ The first dataset is a subset of real data from the [Million Song Dataset](http:
 - song_data/A/A/B/TRAABJL12903CDCF1A.json
 
 ![example](https://github.com/Ericliu249/Sparkify/blob/master/WX20190602-114851%402x.png)
+
+{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
