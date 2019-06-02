@@ -51,3 +51,19 @@ Using the song and log datasets, you'll need to create a star schema optimized f
 ### Dimension Tables
 2. **users** - users in the app
      - *user_id, first_name, last_name, gender, level*
+     
+3. **songs** - songs in music database
+     - *song_id, title, artist_id, year, duration*
+
+4. **artists** - artists in music database
+     - *artist_id, name, location, latitude, longitude*
+     
+5. **time** - timestamps of records in **songplays** broken down into specific units
+     - *start_time, hour, day, week, month, year, weekday*
+     
+## Guideline
+1. test.ipynb : displays the first few rows of each table to check the database.
+2. create_tables.py : drops and creates the tables. Run this file to reset the tables before each time run the ETL scripts.
+3. etl.ipynb : reads and processes a single file from song_data and log_data and loads the data into the tables. This notebook contains detailed instructions on the ETL process for each of the tables.
+4. etl.py : reads and processes files from song_data and log_data and loads them into the tables.  This script was created based on the work in the ETL notebook.
+5. sql_queries.py : contains all sql queries, and is imported into the last three files above.
