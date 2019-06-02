@@ -20,4 +20,4 @@ As a data engineer, my role is to create a Postgres database with tables designe
 
 ### Song Dataset
 
-The first dataset is a subset of real data from the [Million Song Dataset](http://millionsongdataset.com/). Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
+The first dataset is a subset of real data from the [Million Song Dataset](http://millionsongdataset.com/). Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.![example](https://github.com/Ericliu249/Sparkify/blob/master/WX20190602-114851%402x.png)
