@@ -76,4 +76,17 @@ Using the song and log datasets, you'll need to create a star schema optimized f
 3. Run **create_tables.py** to create the database and tables.
 4. Run **test.ipynb** to confirm the creation of the tables with the correct columns. Make sure to click "Kernel-Restart/Shutdown" to close the connection to the database after running this notebook.
 
-### Build ETL Processes
+### Build ETL Pipeline
+Developed ETL processes for each table in the **etl.py**. 
+
+1. Process song_data
+    - Perform ETL on the first dataset, **song_data**, to create the **songs** and **artists** dimensional tables.
+    - Implement the **song_table_insert** and **artist_table_insert** queries in **sql_queries.py** and run the cell below to insert records into the **songs** and **artists** tables. 
+    
+2. Process log_data
+    - Perform ETL on the second dataset, **log_data**, to create the **time** and **users** dimensional tables, as well as the **songplays** fact table.
+    - Implement the **song_select** query in **sql_queries.py** to find the song ID and artist ID based on the title, artist name, and duration of a song.
+    - Select the timestamp, user ID, level, song ID, artist ID, session ID, location, and user agent and set to **songplay_data**
+    - Insert Records into the **time**, **users** and **Songplays** Tables
+    
+Remember to run **create_tables.py** before running **etl.py** to reset the tables. Run **test.ipynb** to confirm the records were successfully inserted into each table.
