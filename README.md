@@ -1,4 +1,4 @@
-# Data Modeling with PostgresSQL for Music app
+# Data Modeling with PostgresSQL for a Music App
 
 ## Backgroud
 
